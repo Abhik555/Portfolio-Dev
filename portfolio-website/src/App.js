@@ -5,11 +5,11 @@ import Projects from "./pages/projects";
 import About from "./pages/about";
 import NoPage from "./pages/nopage";
 import logo from "./resources/logo.png";
+import ContactMe from "./components/contactme";
 
 function App() {
   document.body.classList.add("backdrp");
   return (
-    <section className="backdrp">
       <div>
         <header>
           <nav>
@@ -35,6 +35,8 @@ function App() {
                     </Link>
                   </li>
                 </ul>
+                <br></br>
+                <br></br>
               </div>
 
               <Routes>
@@ -46,8 +48,11 @@ function App() {
             </BrowserRouter>
           </nav>
         </header>
+
+        <footer>
+          <ContactMe />
+        </footer>
       </div>
-    </section>
   );
 }
 

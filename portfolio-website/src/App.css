@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .navbar {
   width: auto;
   height: auto;
@@ -28,7 +30,8 @@
   align-items: center;
   justify-content: center;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 15px 15px;
+  font-family: 'Shadows Into Light';
 }
 
 .link {
@@ -36,21 +39,23 @@
   text-decoration: none;
   color: white;
   font-style: bold;
-  font-size: 25px;
+  font-size: 37px;
 }
 
 .item:hover,
 .link:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
-  font-size: 27px;
+  font-size: 42px;
   transition: 0.2s;
   transform: scaleX(1);
   transform-origin: center;
 }
 
 .backdrp {
-  background-image: url("./resources/webback.jpeg");
+  background-image: url("./resources/webback.svg");
+  /* <a href="https://www.freepik.com/free-vector/abstract-geometric-hexagon-memphis-black-white-background_14649413.htm#query=black%20animated%20background&position=7&from_view=search&track=ais">Image by starline</a> on Freepik */
+  /*Image by <a href="https://www.freepik.com/free-vector/halftone-background-with-waves_13295063.htm#query=black%20animated%20background&position=12&from_view=search&track=ais">Freepik</a>*/
   background-size: cover;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
