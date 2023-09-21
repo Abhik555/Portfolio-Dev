@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-color: rgba(20, 181, 250, 50);
+  padding: 0 2%;
+}
+
+.title{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
