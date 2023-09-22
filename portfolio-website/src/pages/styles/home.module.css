@@ -34,3 +34,13 @@
     width: 600px;
     height: fit-content;
 }
+
+.explist{
+    list-style: none;
+    display: flex;
+    direction: ltr;
+}
+
+.explist li {
+    margin: 10px;
+}

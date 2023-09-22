@@ -1,29 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-.bod{
-    color: white;
+.bod {
+  color: white;
+  text-align: center;
 }
 
-.title{
-    font-family: 'Allura';
-    font-size: 70px;
-    text-align: center;
+.title {
+  font-family: "Roboto" sans-serif;
+  font-size: 70px;
+  text-align: left;
+  font-size: 50px;
 }
 
-.mail{
-    text-align: center;
+.mail {
+  text-align: center;
 }
 
 .icon {
-    text-align: center;
-    vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .iconbox {
+  width: 100%;
+  display: flex;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  margin-left: 300px;
+}
+
+.img {
+  width: 700px;
+  height: 400px;
+}
+
+.link{
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
-    width: 100%; /* Optionally, adjust the width as needed */
-    height: 8vh; /* Optionally, adjust the height as needed */
-  }
+}
+

@@ -3,8 +3,10 @@ import hi from ".././resources/hello.svg.svg";
 import MediaQuery from "react-responsive";
 import { useMediaQuery } from "react-responsive";
 import ExperienceCard from "../components/card";
+import ContactMe from "../components/contactme";
 
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaReact } from "react-icons/fa";
+import { FaJava } from "react-icons/fa6";
 
 function Home() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 1224px)" });
@@ -50,7 +52,21 @@ function Home() {
             Experience
           </h1>
           <br />
-          <ExperienceCard icon={<FaPython size={100}/>} text="Python"/>
+
+          <div className={styles.explist}>
+            <li>
+              <ExperienceCard icon={<FaPython size={100} />} text="Python" />
+            </li>
+            <li>
+              <ExperienceCard icon={<FaJava size={100} />} text="Java" />
+            </li>
+            <li>
+              <ExperienceCard icon={<FaReact size={100} />} text="ReactJS" />
+            </li>
+          </div>
+          <div className={styles.contact}>
+            <ContactMe />
+          </div>
         </div>
       </div>
     </div>
