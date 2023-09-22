@@ -5,7 +5,7 @@ import Projects from "./pages/projects";
 import About from "./pages/about";
 import NoPage from "./pages/nopage";
 import logo from "./resources/logo.png";
-import ContactMe from "./components/contactme";
+//import ContactMe from "./components/contactme";
 
 function App() {
   document.body.classList.add("backdrp");
@@ -48,10 +48,6 @@ function App() {
             </BrowserRouter>
           </nav>
         </header>
-
-        <footer>
-          <ContactMe />
-        </footer>
       </div>
   );
 }

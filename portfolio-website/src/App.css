@@ -53,9 +53,12 @@
 }
 
 .backdrp {
+  /*
   background-image: url("./resources/webback.svg");
   /* <a href="https://www.freepik.com/free-vector/abstract-geometric-hexagon-memphis-black-white-background_14649413.htm#query=black%20animated%20background&position=7&from_view=search&track=ais">Image by starline</a> on Freepik */
   /*Image by <a href="https://www.freepik.com/free-vector/halftone-background-with-waves_13295063.htm#query=black%20animated%20background&position=12&from_view=search&track=ais">Freepik</a>*/
-  background-size: cover;
+  /*background-size: cover;*/
   /*background-attachment: fixed;*/
+  
+  background-color: rgb(23, 28, 40);
 }

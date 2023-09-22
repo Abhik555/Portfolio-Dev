@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-.quotediv {
-  text-align: center;
-  text-overflow: ellipsis;
+.hiimg{
+    float: right;
+    width: 700px;
+    height: 700px;
 }
 
-.quote {
-  color: white;
-  font-family: 'Allura';
-  font-size: 80px;
+.introdiv {
+    float: left;
+    width: 100%;
+    height: fit-content;
+}
+
+.introtext{
+    float: left;
+    padding: 100px 100px 100px 100px;
+}
+
+.textbig{
+    color: white;
+    
 }

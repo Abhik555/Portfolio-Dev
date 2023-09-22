@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.bod{
+    color: white;
+}
+
+.title{
+    font-family: 'Allura';
+    font-size: 70px;
+    text-align: center;
+}
+
+.mail{
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.iconbox {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    width: 100%; /* Optionally, adjust the width as needed */
+    height: 8vh; /* Optionally, adjust the height as needed */
+  }
