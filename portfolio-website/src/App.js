@@ -1,5 +1,6 @@
 import "./App.css";
 import { Routes, Route, BrowserRouter, Link } from "react-router-dom";
+import Headroom from "react-headroom";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import About from "./pages/about";
@@ -10,7 +11,8 @@ import logo from "./resources/logo.png";
 function App() {
   document.body.classList.add("backdrp");
   return (
-      <div>
+    <div>
+      <Headroom>
         <header>
           <nav>
             <BrowserRouter>
@@ -48,7 +50,8 @@ function App() {
             </BrowserRouter>
           </nav>
         </header>
-      </div>
+      </Headroom>
+    </div>
   );
 }
 
