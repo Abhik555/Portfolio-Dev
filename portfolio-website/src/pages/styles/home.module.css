@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 .hiimg{
     float: right;
@@ -20,5 +22,15 @@
 
 .textbig{
     color: white;
-    
+    text-overflow: ellipsis;    
+    font-family: 'Roboto' sans-serif;
+    text-align: left;
+}
+
+.textsmall{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: left;
+    width: 600px;
+    height: fit-content;
 }
