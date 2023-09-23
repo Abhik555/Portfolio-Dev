@@ -64,6 +64,12 @@ function Home() {
               <ExperienceCard icon={<FaReact size={100} />} text="ReactJS" />
             </li>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className={styles.contact}>
             <ContactMe />
           </div>

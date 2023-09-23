@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: white;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
+
+.container:hover {
+  transition: 0.3s ease;
+  width: 80.5%;
+  height: auto;
+}
+
+.textcontainer {
+  padding: 70px 0px 0px 30px;
+  color: white;
+  text-align: left;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 70px 70px 70px 70px;
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+}
+
+.discription {
+  width: 500px;
+  height: auto;
+  text-overflow: ellipsis;
+  font-family: "Shadows Into Light" sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  font-family: "Roboto" sans-serif;
+  font-size: 80px;
+  padding-bottom: 10px;
+}

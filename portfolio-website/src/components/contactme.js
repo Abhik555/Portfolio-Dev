@@ -1,6 +1,7 @@
 import { MdOutlineMail } from "react-icons/md";
 import { AiOutlineGithub } from "react-icons/ai";
 import { IconContext } from "react-icons";
+import {FaLinkedin} from 'react-icons/fa6';
 import styles from "./styles/contactme.module.css";
 import img from ".././resources/contact.svg";
 
@@ -24,6 +25,10 @@ function ContactMe() {
             <div className={styles.link}>
               <AiOutlineGithub className={styles.icon} />
               <h1 className={styles.text}>github.com/Abhik555</h1>
+            </div>
+            <div className={styles.link}>
+              <FaLinkedin className={styles.icon} />
+              <h1 className={styles.text} style={{fontSize:"15px" , overflow:"ellipsis"}}>https://www.linkedin.com/in/abhik-ghosh-995228281/</h1>
             </div>
           </div>
           <div className={styles.imgcontainer}>

@@ -5,6 +5,7 @@ import Projects from "./pages/projects";
 import About from "./pages/about";
 import NoPage from "./pages/nopage";
 import logo from "./resources/logo.png";
+import me from "./resources/me.jpg";
 //import ContactMe from "./components/contactme";
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
               <Routes>
                 <Route path="/" exact element={<Home />} />
                 <Route path="/Projects" element={<Projects />} />
-                <Route path="/About" element={<About />} />
+                <Route path="/About" element={<About img = {me} text="Hi, I am a freelance self taught developer currently attending collage and persuing computer science. Feel free to reach out for any project related ideas and suggestions." title="Abhik Ghosh"/>} />
                 <Route path="*" element={<NoPage />} />
               </Routes>
             </BrowserRouter>

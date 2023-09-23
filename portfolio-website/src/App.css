@@ -59,6 +59,7 @@
   transition: 0.3s;
   transform: scaleX(1);
   transform-origin: center;
+  color: white;
 }
 
 .backdrp {
