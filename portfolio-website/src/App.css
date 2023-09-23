@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 .navbar {
-  width: auto;
+  width: 1300px;
   height: auto;
   display: block;
-  padding: 0.3% 2%;
+  padding: 20px;
+  border-bottom: 5px solid;
+  border-color: white;
+  border-width: 100%;
+  margin: 0 auto;
 }
 
 .logo {

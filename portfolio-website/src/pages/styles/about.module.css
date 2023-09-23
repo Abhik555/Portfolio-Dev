@@ -8,8 +8,10 @@
   border-style: solid;
   border-radius: 30px;
   border-color: white;
-  margin: 0 auto;
+  margin: 190px auto;
+  margin-bottom: 190px;
   transition: 0.3s ease;
+  padding: 20px;
 }
 
 .container:hover {
@@ -46,4 +48,10 @@
   font-family: "Roboto" sans-serif;
   font-size: 80px;
   padding-bottom: 10px;
+}
+
+.footer{
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }

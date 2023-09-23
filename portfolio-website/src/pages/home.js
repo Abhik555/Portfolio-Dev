@@ -7,6 +7,7 @@ import ContactMe from "../components/contactme";
 
 import { FaPython, FaReact } from "react-icons/fa";
 import { FaJava } from "react-icons/fa6";
+import Footer from "../components/footer";
 
 function Home() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 1224px)" });
@@ -72,6 +73,9 @@ function Home() {
           <br />
           <div className={styles.contact}>
             <ContactMe />
+          </div>
+          <div style={{alignItems:"center", justifyContent:"center" , display:"flex"}}>
+            <Footer />
           </div>
         </div>
       </div>

@@ -1,0 +1,11 @@
+.container{
+    color: white;
+    text-align: center;
+    width: 1300px;
+    height: fit-content;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-top: 5px solid;
+    font-size: 20px;
+}
