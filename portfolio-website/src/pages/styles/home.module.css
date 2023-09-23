@@ -39,6 +39,8 @@
     list-style: none;
     display: flex;
     direction: ltr;
+    align-items: center;
+    justify-content: center;
 }
 
 .explist li {
